@@ -1,0 +1,11 @@
+@import "start-block.css";
+@import "product.css";
+@import "cards.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}

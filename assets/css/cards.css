@@ -1,0 +1,30 @@
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 801px;
+}
+
+.cards__card {
+  width: 427px;
+  height: 509px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.cards__card--active {
+  border-color: rgba(0, 0, 0, 0.6);
+}
+
+.card__title {
+  font-family: Roboto, "sans-serif";
+  font-size: 14px;
+  color: #333333;
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
+
+.card__subtitle {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
